@@ -121,12 +121,12 @@ La práctica busca demostrar una separación clara entre el acceso web y el acce
 
 | Acceso | Requisito | Resultado |
 |---|---|---|
-| Usuario → Web Server | HTTPS sin VPN | ✅ Exitoso |
-| Usuario → Web Server | Traceroute | ✅ Exitoso |
-| Usuario → Servidor | SSH mediante VPN | ✅ Exitoso |
-| VPN Remote-Site | Túnel IPsec activo | ✅ Up |
-| ISAKMP | Asociación establecida | ✅ QM_IDLE / ACTIVE |
-| IPsec | Tráfico protegido | ✅ Verificado |
+| Usuario → Web Server | HTTPS sin VPN | Exitoso |
+| Usuario → Web Server | Traceroute | Exitoso |
+| Usuario → Servidor | SSH mediante VPN | Exitoso |
+| VPN Remote-Site | Túnel IPsec activo | Up |
+| ISAKMP | Asociación establecida | QM_IDLE / ACTIVE |
+| IPsec | Tráfico protegido | Verificado |
 
 El punto principal consiste en demostrar que **el acceso web no depende de la VPN**, mientras que el tráfico SSH hacia el servidor utiliza el túnel IPsec configurado entre R1 y FortiGate.
 
@@ -542,7 +542,7 @@ Estado: Active
 
 ![DHCP del Usuario](Imagenes/image03.png)
 
-**Resultado:** ✅ DHCP funcionando correctamente.
+**Resultado:** DHCP funcionando correctamente.
 
 ---
 
@@ -564,7 +564,7 @@ Gateway: 172.8.27.1
 
 ![Configuración de red del servidor](Imagenes/image05.png)
 
-**Resultado:** ✅ Direccionamiento del servidor verificado.
+**Resultado:** Direccionamiento del servidor verificado.
 
 ---
 
