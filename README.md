@@ -1,4 +1,4 @@
-# Infraestructura 3 de Seguridad de Redes — VPN Remote-Site
+# Infraestructura 3 | SR
 
 ### Merolyn Mejía Abreu
 **Matrícula:** 2025-0827
@@ -728,23 +728,15 @@ Imagenes/
 
 # 12. Running Configurations
 
-Las configuraciones utilizadas durante el laboratorio deben almacenarse en:
+Las configuraciones utilizadas durante el laboratorio estan en:
 
 ```text
 RUNNING-CONFIGS/
-```
-
-Organización recomendada:
-
-```text
-RUNNING-CONFIGS/
-├── R1-running-config.txt
-└── FortiGate-running-config.conf
 ```
 
 ## Cisco R1
 
-El archivo de R1 contiene las configuraciones relacionadas con:
+R1 contiene las configuraciones relacionadas con:
 
 - Interfaces.
 - DHCP.
@@ -774,8 +766,9 @@ El archivo correspondiente al FortiGate debe incluir:
 
 # 13. Scripts y comandos utilizados
 
-En esta práctica no fue necesario utilizar un conjunto complejo de scripts. Sin embargo, se utilizaron diferentes comandos para comprobar el funcionamiento de la infraestructura.
-
+Durante esta práctica no se utilizaron scripts automatizados de configuración. 
+Los comandos utilizados fueron principalmente comandos de verificación y validación 
+de la infraestructura, los cuales se documentan a continuación.
 
 ## Cisco R1
 
